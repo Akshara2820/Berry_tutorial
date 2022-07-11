@@ -1,5 +1,158 @@
-.icon_berry{
+.main_container{
+  display: grid;
+  grid-template-columns: 300px auto;
+
+}
+.header-icon{
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid gray;
+
+}
+.icon_logo{
   padding: 10px;
   font-size: 50px;
   color: rgb(124, 14, 213);
+
+}
+.icon_slider{
+  padding: 10px;
+  font-size: 35px;
+  color: rgb(148, 67, 246);
+
+}
+.icon{  
+  padding: 10px;
+  font-size: 42px;
+
+ 
+}
+.shop_icon{
+  padding: 10px;
+  font-size: 42px;
+  color: rgb(3, 147, 204);
+}
+.box_icon{
+  padding: 10px;
+  font-size: 42px;
+  color: rgb(255, 196, 1);
+
+}
+.icon_dots{
+  padding: 10px;
+  font-size: 42px;
+  color: #fff;
+}
+.setting_icon{
+  padding: 10px;
+  font-size: 42px;
+  color: rgb(40, 122, 244);
+}
+
+.left-sidebar-icon-text:hover .text_icon svg, .left-sidebar-icon-text:hover .text_icon_text
+{
+color:rgb(115, 0, 182);
+}
+
+.right_section{
+  display: flex;
+  padding: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  /* height: 78vh; */
+  grid-template-rows: 10% 10% auto;
+}
+.right_section{
+  display: flex;
+  flex-direction: row;
+}
+.earningCard {
+ margin-top: 25px;
+  margin-right: 20rem; 
+  margin-left: 2rem
+}
+.box_one {
+  grid-row-end: span 2;
+  width: 30rem;
+  
+}
+
+.box_two {
+  grid-row-end: span 2;
+  background-color:rgb(21, 101, 192);
+  width: 30rem;
+  margin-left: 5rem;
+}
+
+.side-pannel-box{
+ margin-left: 15rem;
+ margin-top: -1rem;
+}
+.box_five {
+  grid-column-end: span 2;
+  background-color: rgba(240, 248, 255, 0.768);
+}
+
+.box_three{
+  background-color: rgb(21, 101, 192);
+  padding: 0px 10px;
+  height: 100%;
+  align-items: center;
+  gap: 20px;
+  width: 28rem;
+}
+.box_four{
+  padding: 0px 20px;
+  height: 100%;
+  align-items: center;
+  gap: 20px;
+  width:28rem ;
+  
+}
+.top_header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* min-height: 70px; */
+}
+.first_section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.last_section {
+  display: flex;
+  align-items: center;
+}
+.first_section .flex.justify-between {
+  align-items: center;
+  width: 451px;
+}
+
+
+@media(max-width:768px){
+  .left-side-bar{
+    display: none;
+  }
+  .main_container{
+    grid-template-columns: auto;
+  }
+  .logo_section{
+    display: none;
+  }
+}
+@media (max-width:450px){
+  
+  .right_section{
+    grid-template-columns: 1fr;
+  }
+  .box_one {
+    grid-row-end: unset;
+  }
+  .box_two {
+    /* grid-row-end: unset; */
+  }
+  .box_five {
+    grid-column-end: unset;
+  }
 }
