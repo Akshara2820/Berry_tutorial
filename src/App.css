@@ -130,7 +130,7 @@ color:rgb(115, 0, 182);
 }
 
 
-@media(max-width:768px){
+@media(max-width:1199px){
   .left-side-bar{
     display: none;
   }
@@ -140,19 +140,5 @@ color:rgb(115, 0, 182);
   .logo_section{
     display: none;
   }
-}
-@media (max-width:450px){
-  
-  .right_section{
-    grid-template-columns: 1fr;
-  }
-  .box_one {
-    grid-row-end: unset;
-  }
-  .box_two {
-    /* grid-row-end: unset; */
-  }
-  .box_five {
-    grid-column-end: unset;
-  }
+
 }
